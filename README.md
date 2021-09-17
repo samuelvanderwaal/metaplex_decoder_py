@@ -31,9 +31,15 @@ Install `maturin`:
 pip install maturin
 ```
 
-Build in docker with the AnyLinux image:
+For Linux build in docker with the ManyLinux image:
 
 ```bash
 docker run --rm -v $(pwd):/io konstin2/maturin build --release
+```
+
+For MacOSX:
+
+```bash
+maturin build
 ```
 

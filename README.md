@@ -14,6 +14,10 @@ account_info = "..." # Base58 string
 metadata = deserialize_metadata(account_info)
 ```
 
+## Releases
+
+Various versions of the Many Linux Python wheel are available on the releases page.
+
 ## Build With Rust 
 
 [Install Rust](https://www.rust-lang.org/tools/install).
